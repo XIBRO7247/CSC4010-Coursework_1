@@ -1,0 +1,1331 @@
+process-a.c: In function ‘main’:
+process-a.c:70:23: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
+                 if (p > pixlen)
+                       ^
+process-b.c: In function ‘main’:
+process-b.c:67:19: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
+             if (p > pixlen)
+                   ^
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc2.c: In function ‘main._omp_fn.0’:
+process-b_tc2.c:138:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:125:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc2.c:137:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:125:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc2.c:137:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:125:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc2.c:74:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue) // match
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc2.c:61:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc2.c:73:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc2.c:61:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc2.c:73:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc2.c:61:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc3.c: In function ‘main._omp_fn.0’:
+process-b_tc3.c:136:53: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b1 == search.pixels[0][i].blue)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc3.c:123:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc3.c:135:51: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g1 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc3.c:123:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc3.c:135:20: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r1 == search.pixels[0][i].red &&
+                    ^
+process-b_tc3.c:123:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc3.c:78:53: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     b0 == search.pixels[0][i].blue)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc3.c:65:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc3.c:77:51: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                     g0 == search.pixels[0][i].green &&
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc3.c:65:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc3.c:77:20: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (r0 == search.pixels[0][i].red &&
+                    ^
+process-b_tc3.c:65:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
+process-b_tc4.c: In function ‘main._omp_fn.0’:
+process-b_tc4.c:154:57: warning: ‘b1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b1 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:135:25: note: ‘b1’ was declared here
+             int r1, g1, b1;
+                         ^~
+process-b_tc4.c:153:55: warning: ‘g1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g1 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:135:21: note: ‘g1’ was declared here
+             int r1, g1, b1;
+                     ^~
+process-b_tc4.c:153:24: warning: ‘r1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r1 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:135:17: note: ‘r1’ was declared here
+             int r1, g1, b1;
+                 ^~
+process-b_tc4.c:89:57: warning: ‘b0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         b0 == search.pixels[0][i].blue)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+process-b_tc4.c:70:25: note: ‘b0’ was declared here
+             int r0, g0, b0;
+                         ^~
+process-b_tc4.c:88:55: warning: ‘g0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+                         g0 == search.pixels[0][i].green &&
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process-b_tc4.c:70:21: note: ‘g0’ was declared here
+             int r0, g0, b0;
+                     ^~
+process-b_tc4.c:88:24: warning: ‘r0’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     if (r0 == search.pixels[0][i].red &&
+                        ^
+process-b_tc4.c:70:17: note: ‘r0’ was declared here
+             int r0, g0, b0;
+                 ^~
