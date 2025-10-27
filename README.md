@@ -237,11 +237,6 @@ srun --cpu-bind=cores ./a_tc1_dynamic_256 input.rgb > outputs/a_tc1_t16.out
 
 ---
 
-## 📜 License
-
-Add your license here.
-
----
 
 ## 🙌 Acknowledgements
 
